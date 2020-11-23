@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  background-color: black;
   margin: 0 auto;
   padding: 0;
   min-height: 100%;
@@ -33,7 +34,7 @@ img {
   align-items: center;
   line-height: 1rem;
   overflow: hidden;
-  background-color: #fff;
+  background-color: black;
 }
 
 .logo,
@@ -70,7 +71,7 @@ img {
   text-decoration: none;
   letter-spacing: 0.2rem;
   padding: 0.8rem;
-  color: #000;
+  color: #fcd440;
 }
 
 .logo a {
@@ -81,12 +82,12 @@ img {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid black;
   transition: all ease 0.1s;
 }
 
 .nav-menu a:hover {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fcd440;
 }
 
 /* Hero Header Navbar Changes */
@@ -118,7 +119,7 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 0;
+  grid-gap: 0px;
   align-content: center;
   justify-content: center;
   align-items: start;
@@ -201,10 +202,12 @@ img {
 }
 
 .about-text {
+  color: #fcd440;
   margin: 0 auto;
 }
 
 .about-text h1 {
+  color: #fcd440;
   font-size: 2rem;
   line-height: 2rem;
 }
@@ -215,17 +218,19 @@ img {
 }
 
 .about-social {
+  color: #fcd440;
   display: flex;
   justify-content: start;
 }
 
 .about-social a {
-  color: black;
+  color: #fcd440;
   padding: 0 1rem 1rem 1rem;
 }
 
 /* Begin Grid Gallery Styles */
 .gallery-page {
+  color: #fcd440;
   padding: 0 1rem 10rem 1rem;
 }
 
@@ -286,11 +291,12 @@ img {
 }
 
 .footer-social a {
-  color: black;
+  color: #fcd440;
   padding: 0 1rem;
 }
 
 .footer-copyright {
+  color: #fcd440;
   text-align: center;
   padding-bottom: 6rem;
 }
@@ -380,10 +386,12 @@ img {
   padding: 2rem 1rem 10rem 1rem;
 }
 .shop-page h1 {
+  color: #fcd440;
   font-size: 3rem;
   line-height: 3rem;
 }
 .shop-page .text-box {
+  color: #fcd440;
   max-width: 80ch;
   margin: 0 auto;
 }
