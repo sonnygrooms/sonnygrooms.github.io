@@ -102,11 +102,11 @@ img {
 
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: white;
+  color: #fcd440;
 }
 
 .hero-nav .nav-menu a:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #fcd440;
 }
 
 .hero-nav .nav-menu a {
@@ -136,7 +136,7 @@ img {
 
 .hero-image-box::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -164,23 +164,23 @@ img {
   letter-spacing: 0.05rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: #fcd440;
 }
 
 .hero-text {
   font-size: 1rem;
   margin-top: 0.5rem;
-  color: white;
+  color: #fcd440;
 }
 
 .hero-button {
   display: inline-block;
   padding: 0.75rem 2rem;
   background: none;
-  color: white;
+  color: #fcd440;
   font-size: 1.2rem;
   font-weight: bold;
-  border: 1px solid white;
+  border: 1px solid #fcd440;
   border-radius: 5px;
   margin-top: 2rem;
 }
@@ -202,7 +202,7 @@ img {
 }
 
 .about-text {
-  color: #fcd440;
+  color: #ffedab;
   margin: 0 auto;
 }
 
